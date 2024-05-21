@@ -2,27 +2,23 @@
 <body>
 <main>
 
-    <section class="hero">
-        <h1>We</h1>
-        <img src="img/hart.png">
-        <h1>Web</h1>
+    <section class="hero section" id="section1">
+        <h1 class="hero-we-text">We</h1>
+        <img class="we-love-web-hearth" src="img/hart.png" width="300" height="300">
+        <h1 class="hero-web-text">Web</h1>
     </section>
 
-    <section class="intro">
-        <h2>Hier kun je</h2>
-        <h2>Ak mijn</h2>
-        <h2>We love web</h2>
-        <h2>Lezingen bekijken</h2>
+    <section class="intro section" id="section2">
+        <h2 id="introText1">Hier kun je al mijn we</h2><h2 id="introText2">web lezingen bekijken</h2>
     </section>
 
-    <section class="we-love-webs">
-
+    <section class="we-love-webs section" id="section3">
         <div class="we-love-web-cards">
-        <img>
-        <p>Simon Noko</p>
+            <img>
+            <p>Simon Noko</p>
         </div>
 
-        <div class="we-love-web-cards">
+        <div class="we-love-web-cards section">
             <img>
             <p>Justus</p>
         </div>
@@ -32,4 +28,5 @@
 
 </footer>
 </body>
-</html>
+
+<%- include('./partials/foot') %>

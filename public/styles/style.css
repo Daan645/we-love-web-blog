@@ -1,22 +1,80 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
-
+/*google fonts*/
 .pixelify-sans-pixel {
-                    font-family: "Pixelify Sans", sans-serif;
-                    font-optical-sizing: auto;
-                    font-weight: 400;
-                    font-style: normal;
-                }
-
-body {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
-
 
 :root {
-/*colors*/
-    --background-color:#09005E;
+    /*colors*/
+    --background-color: #050031;
     --text-color: #ffff;
+
+/*font*/
+    --h1: 7em;
+    --h2: 5em;
+    --p: 3em;
+
+/*margins and paddings*/
+    --margin: 2em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 100vw;
+}
+
+/*general styling*/
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+    font-weight: normal;
+}
+
+p {
+    font-size: var(--p);
+}
+
+/*hero styling*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 
 
 }
+
+
+/*intro styling*/
+
+.intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: var(--margin);
+}
+
+.intro h2 {
+    margin:0.1em;
+}
+
+.we-love-webs {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
