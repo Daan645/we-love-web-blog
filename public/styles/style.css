@@ -52,8 +52,10 @@ p {
     justify-content: center;
     width: 100%;
     height: 100vh;
+}
 
-
+ul {
+    list-style: none;
 }
 
 
@@ -73,8 +75,36 @@ p {
 }
 
 .we-love-webs {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
+
+/*welove web cards styling*/
+.we-love-webs figure {
+    background-color: darkgrey;
+    width: 30em;
+    height: 50em;
+    border-radius: 10px;
+}
+
+.we-love-web-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-love-web-item-text {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+}
+
+.we-love-web-item-text h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
 
