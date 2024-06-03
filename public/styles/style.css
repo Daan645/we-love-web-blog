@@ -28,6 +28,8 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     width: 100vw;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /*general styling*/
@@ -44,6 +46,26 @@ p {
     font-size: var(--p);
 }
 
+#section1, #section2, #section3 {
+    scroll-snap-type: y mandatory;
+}
+
+button {
+    border-radius: 10px;
+    margin-top: 1em;
+    border: 1px solid white;
+    font-size: 2em;
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    width: 15em;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.05;
+    transition: 0.1s ease-in;
+}
 /*hero styling*/
 
 .hero {
@@ -82,29 +104,61 @@ ul {
 }
 
 /*welove web cards styling*/
-.we-love-webs figure {
-    background-color: darkgrey;
-    width: 30em;
-    height: 50em;
-    border-radius: 10px;
-}
+
+    .we-love-webs img {
+        width: 300px; /* Pas deze waarde aan naar de gewenste grootte */
+        height: 300px; /* Pas deze waarde aan naar de gewenste grootte */
+    }
+
+
 
 .we-love-web-item {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 .we-love-web-item-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 40em;
+    margin: 1em;
 }
 
 .we-love-web-item-text h2, p {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .we-love-web-hearth {
+        width: 200px;
+        height: 200px;
+    }
+
+h1 {
+    font-size: 3em;
+}
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.1em;
+    }
+
+
+
+}
+
 
 
 

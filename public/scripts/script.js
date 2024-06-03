@@ -37,7 +37,7 @@ gsap.to("#introText1", {
         scrub: 1,
         // markers: true
     },
-    x: -200,
+    y: -100,
     duration: 1
 });
 
@@ -49,7 +49,7 @@ gsap.to("#introText2", {
         scrub: 1,
         // markers: true
     },
-    x: 200,
+    y: 300,
     duration: 1
 });
 
