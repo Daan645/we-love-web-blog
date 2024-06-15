@@ -164,6 +164,20 @@ gsap.from("#note6", {
     ease: "SlowMo.ease"
 });
 
+gsap.from("#note7", {
+    scrollTrigger: {
+        trigger: "#note7",
+        start: "top 40%",
+        end: "top 60%",
+        scrub: 1,
+        // markers: true
+    },
+    x: note1X,
+    opacity: 0,
+    duration: 4,
+    ease: "SlowMo.ease"
+});
+
 // Animatie opnieuw berekenen bij het wijzigen van de schermgrootte
 window.addEventListener('resize', () => {
     ScrollTrigger.refresh();
