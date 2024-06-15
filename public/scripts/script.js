@@ -13,7 +13,6 @@ const weLoveWebHearthScrollY = calculateAnimationDistance(1050);
 const introTextY = calculateAnimationDistance(200);
 const note1X = calculateAnimationDistance(-4000);
 
-
 gsap.from('.hero-we-text', {
     duration: 1,
     x: `${heroWeTextX}%`,
@@ -49,7 +48,7 @@ gsap.to(".we-love-web-hearth", {
         start: "top 15%",
         end: "bottom 10%",
         scrub: 3,
-
+        // markers: true
     },
     y: weLoveWebHearthScrollY,
     duration: 200,
@@ -87,7 +86,7 @@ gsap.from("#note1", {
         start: "top 40%",
         end: "top 60%",
         scrub: 1,
-        markers: true
+        // markers: true
     },
     x: note1X,
     opacity: 0,
@@ -101,7 +100,7 @@ gsap.from("#note2", {
         start: "top 40%",
         end: "top 60%",
         scrub: 1,
-        markers: true
+        // markers: true
     },
     x: note1X,
     opacity: 0,
@@ -115,7 +114,7 @@ gsap.from("#note3", {
         start: "top 40%",
         end: "top 60%",
         scrub: 1,
-        markers: true
+        // markers: true
     },
     x: note1X,
     opacity: 0,
@@ -129,7 +128,7 @@ gsap.from("#note4", {
         start: "top 40%",
         end: "top 60%",
         scrub: 1,
-        markers: true
+        // markers: true
     },
     x: note1X,
     opacity: 0,
@@ -143,7 +142,7 @@ gsap.from("#note5", {
         start: "top 40%",
         end: "top 60%",
         scrub: 1,
-        markers: true
+        // markers: true
     },
     x: note1X,
     opacity: 0,
@@ -157,7 +156,7 @@ gsap.from("#note6", {
         start: "top 40%",
         end: "top 60%",
         scrub: 1,
-        markers: true
+        // markers: true
     },
     x: note1X,
     opacity: 0,
@@ -169,7 +168,6 @@ gsap.from("#note6", {
 window.addEventListener('resize', () => {
     ScrollTrigger.refresh();
 });
-
 
 //Details function
 const detailsElement = document.querySelector('.notes')
