@@ -11,12 +11,12 @@
     --background-color: #050031;
     --text-color: #ffff;
 
-/*font*/
+    /*font*/
     --h1: 7em;
     --h2: 4em;
     --p: 3em;
 
-/*margins and paddings*/
+    /*margins and paddings*/
     --margin: 2em;
 }
 
@@ -44,6 +44,12 @@ h2 {
 
 p {
     font-size: var(--p);
+    line-height: 1.4em;
+}
+
+a {
+    font-size: 2em;
+    color: var(--text-color);
 }
 
 #section1, #section2, #section3 {
@@ -80,8 +86,11 @@ ul {
     list-style: none;
 }
 
-
 /*intro styling*/
+.intro-section {
+    margin-bottom: 0;
+}
+
 
 .intro {
     height: 100vh;
@@ -100,23 +109,21 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 /*welove web cards styling*/
 
-    .we-love-webs img {
-        width: 300px; /* Pas deze waarde aan naar de gewenste grootte */
-        height: 300px; /* Pas deze waarde aan naar de gewenste grootte */
-    }
-
-
+.we-love-webs img {
+    width: 300px; /* Pas deze waarde aan naar de gewenste grootte */
+    height: 300px; /* Pas deze waarde aan naar de gewenste grootte */
+    border-radius: 10px;
+}
 
 .we-love-web-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding-top: 35em;
 }
 
 .we-love-web-item-text {
@@ -133,15 +140,14 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-
     .we-love-web-hearth {
         width: 200px;
         height: 200px;
     }
 
-h1 {
-    font-size: 3em;
-}
+    h1 {
+        font-size: 3em;
+    }
 
     h2 {
         font-size: 1.3em;
@@ -154,11 +160,47 @@ h1 {
     button {
         font-size: 1.1em;
     }
-
-
-
 }
 
+details {
+    position: relative;
+    margin-top: 1em;
+}
 
+details[open] {
+    background: var(--background-color);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60em;
+    max-width: 90vw;
+    max-height: 50vh;
+    z-index: 1000;
+    overflow-y: auto;
+}
 
+details[open] h2 {
+    margin: 0.5em;
+}
 
+summary {
+    font-size: 2em;
+    margin-top: 1em;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+details[open] summary {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    background: #007bff;
+    color: white;
+}
