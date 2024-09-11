@@ -10,7 +10,7 @@ const heroWeTextX = calculateAnimationDistance(-100);
 const heroWebTextX = calculateAnimationDistance(60);
 const weLoveWebHearthY = calculateAnimationDistance(-150);
 const weLoveWebHearthScrollY = calculateAnimationDistance(1050);
-const introTextY = calculateAnimationDistance(200);
+const introTextY = calculateAnimationDistance(350);
 const note1X = calculateAnimationDistance(-4000);
 
 gsap.from('.hero-we-text', {
