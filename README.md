@@ -1,6 +1,8 @@
 # ❤️ We love web blog 
 Deze blog verzamelt mijn aantekeningen van lezingen die ik bijwoon. Je vindt hier interessante inzichten en samenvattingen van diverse onderwerpen. De blog heeft een leuke extra: een hartje dat meescrollt met de pagina, gemaakt met GSAP (GreenSock Animation Platform).
 
+<img width="1775" alt="Scherm­afbeelding 2024-10-25 om 19 46 41" src="https://github.com/user-attachments/assets/03601783-b023-4a34-b00a-fae63dcd0829">
+
 ## 🌐 Bekijk de website
 <a href="https://we-love-web-blog.onrender.com/">U kunt de website hier bekijken</a>
 
