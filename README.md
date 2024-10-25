@@ -7,6 +7,7 @@ Deze blog verzamelt mijn aantekeningen van lezingen die ik bijwoon. Je vindt hie
 ## 📚 Inhoudsopgave
 * [🌟 Waar ben ik trots op?](#-waar-ben-ik-trots-op)
 * [🤔 Waar had ik moeite mee en hoe heb ik dit opgelost?](#-waar-had-ik-moeite-mee-en-hoe-heb-ik-dit-opgelost)
+* * [🎯 Wat wil ik nog toevoegen?](#-wat-wil-ik-nog-toevoegen?)
 * [📡 Techstack](#-techstack)
 
 ## 🌟 Waar ben ik trots op?
@@ -27,7 +28,7 @@ Het was erg moeilijk om de hart animatie te maken, ik wist niet veel van de scro
 ### Pop-ups zonder js
 Ik wou graag pop-ups maken die ook toegankelijk zijn. Ik heb daarna een beetje speur werk op google gedaan en heb uiteindelijk op mdn webdocs het details element gevonden.
 
-### Wat wil ik nog toevoegen
+## 🎯 Wat wil ik nog toevoegen
 - Hart animatie responsive maken voor alle schermen (heb een berekening geprobeerd te maken maar dit werkt helaas niet)
 - De tekst veranderd in sluiten als een pop up open is
 - Alle data ophalen met een database
