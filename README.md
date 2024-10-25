@@ -7,7 +7,7 @@ Deze blog verzamelt mijn aantekeningen van lezingen die ik bijwoon. Je vindt hie
 ## 📚 Inhoudsopgave
 * [🌟 Waar ben ik trots op?](#-waar-ben-ik-trots-op)
 * [🤔 Waar had ik moeite mee en hoe heb ik dit opgelost?](#-waar-had-ik-moeite-mee-en-hoe-heb-ik-dit-opgelost)
-* * [🎯 Wat wil ik nog toevoegen?](#-wat-wil-ik-nog-toevoegen?)
+* [🎯 Wat wil ik nog toevoegen](#-wat-wil-ik-nog-toevoegen)
 * [📡 Techstack](#-techstack)
 
 ## 🌟 Waar ben ik trots op?
